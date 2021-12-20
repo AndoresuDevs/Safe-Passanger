@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "144717853371",
+    "firebase_url": "https://safepassenger-727db-default-rtdb.firebaseio.com",
+    "project_id": "safepassenger-727db",
+    "storage_bucket": "safepassenger-727db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144717853371:android:562e624a32adb2398daf9e",
+        "android_client_info": {
+          "package_name": "com.andoresudev.safepassenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144717853371-ubu25j19hvj98b8tn4sp7aa7677k2lr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz4LnvT90VaCdvkG7Y2Hu00zrnoEndZwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144717853371-ubu25j19hvj98b8tn4sp7aa7677k2lr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

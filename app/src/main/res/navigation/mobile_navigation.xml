@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.andoresudev.safepassenger.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_logout"
+            app:destination="@id/nav_logout" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_bus"
+            app:destination="@id/nav_bus" />
+        <action
+            android:id="@+id/action_nav_home_to_buslistFragment"
+            app:destination="@id/nav_buslist" />
+        <action
+            android:id="@+id/action_nav_home_to_driverlistFragment"
+            app:destination="@id/nav_driverlist" />
+        <action
+            android:id="@+id/action_nav_home_to_routeFragment2"
+            app:destination="@id/routeFragment2" />
+        <action
+            android:id="@+id/action_nav_home_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_dataFragment"
+            app:destination="@id/dataFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_mailboxFragment"
+            app:destination="@id/mailboxFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.andoresudev.myapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.andoresudev.safepassenger.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.andoresudev.safepassenger.ui.logout.LogoutFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_logout"
+        />
+
+    <fragment
+        android:id="@+id/nav_bus"
+        android:name="com.andoresudev.safepassenger.ui.bus.BusFragment"
+        android:label="@string/bus_fragment_title"
+        tools:layout="@layout/fragment_bus"
+        />
+    <fragment
+        android:id="@+id/nav_buslist"
+        android:name="com.andoresudev.safepassenger.ui.buslist.BuslistFragment"
+        android:label="@string/bus_list"
+        tools:layout="@layout/fragment_buslist"/>
+    <fragment
+        android:id="@+id/nav_driverlist"
+        android:name="com.andoresudev.safepassenger.ui.driverslist.DriverlistFragment"
+        android:label="@string/driver_list"
+        tools:layout="@layout/fragment_driverlist"/>
+    <fragment
+        android:id="@+id/routeFragment2"
+        android:name="com.andoresudev.safepassenger.ui.route.RouteFragment"
+        android:label="@string/route"
+        tools:layout="@layout/fragment_route"/>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.andoresudev.safepassenger.ui.history.HistoryFragment"
+        android:label="@string/history_title"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.andoresudev.safepassenger.ui.data.DataFragment"
+        android:label="@string/data_title"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/mailboxFragment"
+        android:name="com.andoresudev.safepassenger.ui.mailbox.MailboxFragment"
+        android:label="@string/mailbox_title"
+        tools:layout="@layout/fragment_mailbox"/>
+</navigation>

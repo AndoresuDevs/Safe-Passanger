@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/borde_bus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bus_green_border">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblTituloFrgBus"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="6"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:fontFamily="@font/roboto_thin"
+                    android:text="@string/bus_number"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnDesabordarBus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/button_primary"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/btn_desabordar"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnAbordarBus"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:fontFamily="@font/roboto_bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_secondary"
+                    android:text="@string/btn_abord" />
+            </LinearLayout>
+
+
+            <Spinner
+                android:id="@+id/busSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:background="@color/secondary_blue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnReportarBus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:background="@drawable/button_report"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/btn_report"
+                android:visibility="gone" />
+
+            <TableLayout
+                android:id="@+id/busModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@drawable/border_bus"
+                android:gravity="end">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/asiento2ocu"
+                        android:layout_width="160dp"
+                        android:layout_height="162dp"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/asiento2off" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/asiento1ocu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="166dp"
+                        app:srcCompat="@drawable/asiento1off" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/asientoChofer"
+                        android:layout_width="159dp"
+                        android:layout_height="161dp"
+                        app:srcCompat="@drawable/asiento_chofer" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/volante"
+                        android:layout_width="148dp"
+                        android:layout_height="89dp"
+                        app:srcCompat="@drawable/volante" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

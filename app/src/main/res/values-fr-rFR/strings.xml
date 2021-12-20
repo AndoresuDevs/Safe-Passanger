@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Safe Passenger</string>
+
+    //Login
+    <string name="email">Courrier électronique</string>
+    <string name="pass">Mot de passe</string>
+    <string name="conf_pass">Confirmer mot de passe</string>
+    <string name="login">Commencer la session</string>
+    <string name="forget_pass">Vous avez oublié votre mot de passe?</string>
+    <string name="no_account">Vous n\'avez pas encore de compte?</string>
+    <string name="signin">S\'inscrire</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="fill_all_txt">Vous devez remplir tous les champs</string>
+    <string name="incorrect_data">Erreur, données erronées</string>
+    <string name="close_app_confirm">Voulez-vous fermer l\'application?</string>
+    <string name="getout">Sortir</string>
+    <string name="cancel">Annuler</string>
+    <string name="sucesfull_logout">Session terminée</string>
+    <string name="admin_account">Connectez-vous en tant qu\'administrateur</string>
+    <string name="admin_only">Vous ne disposez pas des autorisations d\'administrateur</string>
+
+    //Main Menu
+    <string name="greeting">Bonjour voyageur! </string>
+    <string name="greeting_admin">Bonjour, chauffeur!</string>
+    <string name="seatings">Surveiller les sièges</string>
+    <string name="route">Afficher l\'itinéraire</string>
+    <string name="bus_list">Liste des camions</string>
+    <string name="driver_list">Liste des pilotes</string>
+
+    //Singin
+    <string name="fill_email">Vous devez rédiger votre email</string>
+    <string name="email_send">Le mail a été envoyé avec succès</string>
+    <string name="email_fail">Une erreur inattendue s\'est produite lors de l\'envoi du courrier</string>
+    <string name="singin_complete">Inscription terminée avec succès</string>
+    <string name="singin_fail">L\'enregistrement de l\'utilisateur n\'a pas pu être terminé</string>
+    <string name="pass_diferent">Les mots de passe ne correspondent pas</string>
+    <string name="pass_short">Les mots de passe doivent comporter au moins 6 caractères</string>
+    <string name="are_you_driver">Êtes-vous chauffeur?</string>
+    <string name="payroll">Paie</string>
+    <string name="circulation_card">Carte de circulation</string>
+    <string name="driver_licence">Permis de conduire</string>
+    <string name="have_account">Avez-vous déjà un compte?</string>
+
+    //restore password
+    <string name="login_problem">Avez-vous du mal à entrer?</string>
+    <string name="recuperation_instruction">Entrez votre email et nous vous enverrons un lien afin que vous puissiez réinitialiser votre mot de passe</string>
+    <string name="restore_password">Réinitialiser le mot de passe</string>
+    <string name="create_new_account">Créer un nouveau compte</string>
+    <string name="back_to_login">Retour connexion</string>
+
+    //Titles
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Nav Header</string>
+    <string name="menu_home">Menu principal</string>
+    <string name="menu_gallery">Compte</string>
+    <string name="menu_slideshow">Langage</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="nav_home_title">Menu principal</string>
+    <string name="nav_account_title">Compte</string>
+    <string name="nav_language_title">Langage</string>
+    <string name="nav_logout_title">Fermer la session</string>
+
+    //Account settings
+    <string name="account_conf">Paramètres du compte</string>
+    <string name="edit">Éditer</string>
+
+
+    //languages
+    <string name="change_language">Cambiar lenguaje</string>
+    <string name="len_spanish">Español</string>
+    <string name="spanish_latam">Español (México)</string>
+    <string name="len_english">English</string>
+    <string name="english_usa">English (United States)</string>
+    <string name="len_french">Français</string>
+    <string name="french_fr">Français (France)</string>
+    <string name="len_portuguese">Português</string>
+    <string name="portuguese_br">Português (Brasil)</string>
+    <string name="len_german">Deutsche</string>
+    <string name="german_al">Deutsche (Deutschland)</string>
+
+    //log out
+    <string name="logout">Fermer la session</string>
+    <string name="logout_confirm">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="logout_message">Confirmez que vous voulez vraiment vous déconnecter en appuyant sur le bouton "Fermer la session". À bientôt!</string>
+
+    //Bus
+    <string name="bus_fragment_title">Numéro de bus</string>
+    <string name="bus_number">Bus</string>
+    <string name="available_seat">Siège disponible</string>
+    <string name="occupied_seat">Siège occupé</string>
+    <string name="driver_seat">Siège du conducteur</string>
+    <string name="click_to_select_bus">Appuyez pour sélectionner votre camion</string>
+    <string name="click_to_select_route">Appuyez pour sélectionner votre itinéraire</string>
+    <string name="btn_abord">Approcher</string>
+    <string name="btn_report">Rapport</string>
+    <string name="btn_desabordar">Fin du voyage</string>
+
+    //Agregar Bus
+    <string name="alert_dialog_title">Mettre à jour les informations du compte</string>
+    <string name="alert_dialog_message">Êtes-vous sûr de mettre à jour votre </string>
+    <string name="alert_dialog_hint">Entrez vos nouvelles informations</string>
+    <string name="alert_dialog_null_validation">Je ne peux pas laisser le champ vide</string>
+    <string name="update_information">Informations à jour</string>
+    <string name="update">Mettre à jour</string>
+
+    //Lista de camiones
+    <string name="add_bus">Ajouter un nouveau camion</string>
+    <string name="driver_list_design">Conducteur:</string>
+    <string name="route_list_design">Route:</string>
+    <string name="state_list_design">État:</string>
+
+    //Agregar nuevo camión
+
+    <string name="title_addBus">Nouveau camion</string>
+    <string name="bus_id">Numéro de camion</string>
+    <string name="bus_driver">Conducteur</string>
+    <string name="bus_route">Route</string>
+    <string name="add_bus_complete">Nouveau camion ajouté avec succès</string>
+    <string name="add_bus_incomplete">Une erreur s\'est produite lors de l\'ajout, veuillez réessayer plus tard</string>
+    <string name="clic_to_select">Appuyez pour sélectionner</string>
+
+    //Historial de viajes
+    <string name="history_title">Histoire de voyage</string>
+    <string name="click_to_select_day">Choisissez un jour</string>
+    <string name="history_hour">Heure: </string>
+    <string name="history_period">Période: </string>
+    <string name="history_route">Route: </string>
+    <string name="history_bus">Unité: </string>
+
+    //Analisis de Datos
+    <string name="data_title">Analyse de données</string>
+    <string name="date_data">DATE:</string>
+    <string name="users_data">Nombre total d\'utilisateurs:</string>
+    <string name="reports_data">Total des rapports:</string>
+    <string name="comments_data">Total des commentaires:</string>
+    <string name="resum_data">Résumé général</string>
+    <string name="zero">0</string>
+    <string name="passengers">Passagers</string>
+    <string name="report">Rapports</string>
+    <string name="comment">Commentaires</string>
+    <string name="select">Pour sélectionner</string>
+    <string name="month">Mois</string>
+    <string name="year">An</string>
+
+    //report
+    <string name="report_reason">Raison:</string>
+    <string name="report_description">Description
+:</string>
+    <string name="sacceful_report">Rapport terminé avec succès</string>
+    <string name="report_default">Rapports rapides:</string>
+    <string name="report_time">En retard</string>
+    <string name="report_fast">Conduisez mal</string>
+    <string name="report_money">Mauvais changement</string>
+    <string name="report_bustop">N\'a pas empêché</string>
+    <string name="report_driver">Mauvais service du chauffeur</string>
+
+    //Buzon
+    <string name="mailbox_title">Boîte aux lettres de suggestions</string>
+    <string name="mailbox_send">Envoyer une suggestion</string>
+    <string name="mailbox_reason">Titre:</string>
+    <string name="mailbox_description">Description:</string>
+    <string name="mailbox_toast">Merci pour vos commentaires</string>
+
+
+    //CONTENT DESCRIPTION
+    <string name="close_button">Bouton Fermer</string>
+
+</resources>

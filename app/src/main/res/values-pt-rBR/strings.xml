@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safe Passenger</string>
+
+    //Login
+    <string name="email">Correio eletrônico</string>
+    <string name="pass">Senha</string>
+    <string name="conf_pass">confirmar senha</string>
+    <string name="login">Iniciar sessão</string>
+    <string name="forget_pass">Você esqueceu sua senha?</string>
+    <string name="no_account">Não tem uma conta ainda?</string>
+    <string name="signin">cadastre-se</string>
+    <string name="username">Nome de usuário</string>
+    <string name="fill_all_txt">Você deve preencher todos os campos</string>
+    <string name="incorrect_data">Erro, dados errados</string>
+    <string name="close_app_confirm">Você quer fechar o aplicativo?</string>
+    <string name="getout">Sair</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sucesfull_logout">Sessão terminada</string>
+    <string name="admin_account">Faça login como administrador</string>
+    <string name="admin_only">Você não tem permissões de administrador</string>
+
+    //Main Menu
+    <string name="greeting">Olá viajante! </string>
+    <string name="greeting_admin">Olá, motorista!</string>
+    <string name="seatings">Monitorar assentos</string>
+    <string name="route">Ver rota</string>
+    <string name="bus_list">Lista de caminhões</string>
+    <string name="driver_list">Lista de motoristas</string>
+
+    //Singin
+    <string name="fill_email">Você deve escrever seu e-mail</string>
+    <string name="email_send">O e-mail foi enviado com sucesso</string>
+    <string name="email_fail">Ocorreu um erro inesperado ao enviar o e-mail</string>
+    <string name="singin_complete">Registro completado com sucesso</string>
+    <string name="singin_fail">Não foi possível completar o registro do usuário</string>
+    <string name="pass_diferent">As senhas não correspondem</string>
+    <string name="pass_short">As senhas devem ter pelo menos 6 caracteres</string>
+    <string name="are_you_driver">Você é motorista?</string>
+    <string name="payroll">Folha de pagamento</string>
+    <string name="circulation_card">Cartão de circulação</string>
+    <string name="driver_licence">Carteira de motorista</string>
+    <string name="have_account">Você já tem uma conta?</string>
+
+    //restore password
+    <string name="login_problem">¿Tienes problemas para entrar?</string>
+    <string name="recuperation_instruction">Introduce tu correo electrónico y te enviaremos un enlace para que puedas reestablecer tu contraseña</string>
+    <string name="restore_password">Restaurar contraseña</string>
+    <string name="create_new_account">Crear nueva cuenta</string>
+    <string name="back_to_login">Volver al inicio de sesión</string>
+
+
+    //Titles
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Nav Header</string>
+    <string name="menu_home">Menu Principal</string>
+    <string name="menu_gallery">Cuenta</string>
+    <string name="menu_slideshow">Idioma</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="nav_home_title">Menú Principal</string>
+    <string name="nav_account_title">Cuenta</string>
+    <string name="nav_language_title">Idioma</string>
+    <string name="nav_logout_title">Cerrar Sesión</string>
+
+    //Account settings
+    <string name="account_conf">Configurações geral da conta</string>
+    <string name="edit">Editar</string>
+
+    //languages
+    <string name="change_language">Mudar idioma</string>
+    <string name="len_spanish">Español</string>
+    <string name="spanish_latam">Español (México)</string>
+    <string name="len_english">English</string>
+    <string name="english_usa">English (United States)</string>
+    <string name="len_french">Français</string>
+    <string name="french_fr">Français (France)</string>
+    <string name="len_portuguese">Português</string>
+    <string name="portuguese_br">Português (Brasil)</string>
+    <string name="len_german">Deutsche</string>
+    <string name="german_al">Deutsche (Deutschland)</string>
+
+    //log out
+    <string name="logout">Fechar Sessão</string>
+    <string name="logout_confirm">Tem certeza que deseja sair?</string>
+    <string name="logout_message">Confirme que você realmente deseja fazer logout tocando no botão "Fechar Sessão". Volte em breve!</string>
+
+    //Bus
+    <string name="bus_fragment_title">Número do caminhão</string>
+    <string name="bus_number">Caminhão</string>
+    <string name="available_seat">Assento disponível</string>
+    <string name="occupied_seat">Assento ocupado</string>
+    <string name="driver_seat">Banco do motorista</string>
+    <string name="click_to_select_bus">Toque para selecionar seu caminhão</string>
+    <string name="click_to_select_route">Toque para selecionar sua rota</string>
+    <string name="btn_abord">Abordagem</string>
+    <string name="btn_report">Relatório</string>
+    <string name="btn_desabordar">Fim da viagem</string>
+
+    //Agregar Bus
+    <string name="alert_dialog_title">Atualizar informações da conta</string>
+    <string name="alert_dialog_message">¿Tem certeza de atualizar seu </string>
+    <string name="alert_dialog_hint">Insira suas novas informações</string>
+    <string name="alert_dialog_null_validation">Não posso deixar o campo vazio</string>
+    <string name="update_information">Informação atualizada</string>
+    <string name="update">Atualizar</string>
+
+    //Lista de camiones
+    <string name="add_bus">Adicionar novo caminhão</string>
+    <string name="driver_list_design">Motorista:</string>
+    <string name="route_list_design">Rota:</string>
+    <string name="state_list_design">Doença:</string>
+
+    //Agregar nuevo camión
+    <string name="title_addBus">Novo caminhão</string>
+    <string name="bus_id">Número do caminhão</string>
+    <string name="bus_driver">Motorista</string>
+    <string name="bus_route">Rota</string>
+    <string name="add_bus_complete">Novo caminhão adicionado com sucesso</string>
+    <string name="add_bus_incomplete">Ocorreu um erro ao adicionar, tente novamente mais tarde</string>
+    <string name="clic_to_select">Toque para selecionar</string>
+
+    //Historial de viajes
+    <string name="history_title">História de Viagem</string>
+    <string name="click_to_select_day">Escolha um dia</string>
+    <string name="history_hour">Hora: </string>
+    <string name="history_period">Período: </string>
+    <string name="history_route">Rota: </string>
+    <string name="history_bus">Unidade: </string>
+
+    //Analisis de Datos
+    <string name="data_title">Analise de dados</string>
+    <string name="date_data">DATA:</string>
+    <string name="users_data">Total de usuários:</string>
+    <string name="reports_data">Relatórios Totais:</string>
+    <string name="comments_data">Total de comentários:</string>
+    <string name="resum_data">Resumo Geral</string>
+    <string name="zero">0</string>
+    <string name="passengers">Passageiros</string>
+    <string name="report">Relatórios</string>
+    <string name="comment">Comentários</string>
+    <string name="select">Selecionar</string>
+    <string name="month">
+Mês</string>
+    <string name="year">
+Ano</string>
+
+    //report
+    <string name="report_reason">
+Razão:</string>
+    <string name="report_description">Descrição:</string>
+    <string name="sacceful_report">Relatório concluído com sucesso</string>
+    <string name="report_default">Relatórios rápidos:</string>
+    <string name="report_time">Tarde</string>
+    <string name="report_fast">Dirigir mal</string>
+    <string name="report_money">Mudança ruim</string>
+    <string name="report_bustop">Não parou</string>
+    <string name="report_driver">Mau serviço do motorista</string>
+
+    //Buzon
+    <string name="mailbox_title">
+Caixa de correio de sugestões</string>
+    <string name="mailbox_send">Enviar sugestão</string>
+    <string name="mailbox_reason">Título:</string>
+    <string name="mailbox_description">Descrição:</string>
+    <string name="mailbox_toast">Obrigado por seus comentários</string>
+
+
+    //CONTENT DESCRIPTION
+    <string name="close_button">Botão fechar</string>
+
+
+
+
+</resources>
